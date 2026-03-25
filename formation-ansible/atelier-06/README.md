@@ -87,7 +87,6 @@ vagrant@control:~/monprojet$ source ~/.bashrc
 vagrant@control:~/monprojet$ echo 'export ANSIBLE_CONFIG=$(expand_path ansible.cfg)' > .envrc
 vagrant@control:~/monprojet$ direnv allow
 
-# Maintenant, on a le bon fichier de configuration d'ansible qui est pris en compte à chaque fois que l'on se trouve dans le dossier monprojet, ou dans un de ses sous-dossiers
 vagrant@control:~$ cd monprojet/
 direnv: loading ~/monprojet/.envrc
 direnv: export +ANSIBLE_CONFIG
@@ -99,6 +98,9 @@ vagrant@control:~/monprojet$ cd test/
 vagrant@control:~/monprojet/test$ ansible --version | grep "config file"
   config file = /home/vagrant/monprojet/ansible.cfg
 ```
+
+Maintenant, on a le bon fichier de configuration d'ansible qui est pris en compte à chaque fois que l'on se trouve dans le dossier monprojet, ou dans un de ses sous-dossiers
+
 
 ## Création d'un inventaire
 
