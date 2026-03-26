@@ -184,6 +184,7 @@ Voici un exemple pour Debian :
 ---
 chrony_package: chrony
 chrony_service: chrony
+chrony_file : "/etc/chrony/chrony.conf"
 ...
 ```
 
@@ -210,7 +211,7 @@ Du coup maintenant le playbook devient plus fluide et plus facile à maintenir, 
 
     - name: Install custom configuration
       copy:
-        dest: "/etc/chrony.conf"
+        dest: "{{ chrony_file }}"
         content: |
           server 0.fr.pool.ntp.org iburst
           server 1.fr.pool.ntp.org iburst
