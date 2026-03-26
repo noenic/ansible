@@ -11,7 +11,7 @@ L'objectif est d'identifier l'outil de gestion des paquets via les facts.
   tasks:
     - name: Display package manager
       debug:
-        msg: "{ inventory_hostname }} utilise {{ ansible_pkg_mgr }}"
+        msg: "{{ inventory_hostname }} utilise {{ ansible_pkg_mgr }}"
 ...
 ```
 
