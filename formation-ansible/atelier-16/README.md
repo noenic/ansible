@@ -1,10 +1,5 @@
 # ATELIER-16 : Facts et Variables Implicites
 
-## Initialisation de l'atelier
-Démarrage de l'environnement et connexion au `ansible` Host et on vérifie que tout fonctionne avec un ping sur tous les hôtes :
-```console
-
-```
 Le jeu sur cet atelier est juste de se balader dans les facts qu'on peut récupérer sur les hôtes avec `ansible -m setup (target)`.
 
 ## Gestionnaire de paquets (pkg-info.yml)
