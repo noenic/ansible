@@ -1,4 +1,4 @@
-[🏠 Sommaire ](../README.md)
+[🏠 Sommaire ](/README.md)
 # ATELIER-16 : Facts et Variables Implicites
 
 > [!NOTE]
@@ -125,3 +125,4 @@ ok: [debian] => {
 ...
 ```
 
+[⬅️ Atelier-15](/formation-ansible/atelier-15/README.md) | [Atelier-17➡️](/formation-ansible/atelier-17/README.md)

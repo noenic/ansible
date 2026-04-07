@@ -1,4 +1,4 @@
-[🏠 Sommaire ](../README.md)
+[🏠 Sommaire ](/README.md)
 # ATELIER-14 : Les Variables Ansible
 
 ## Initialisation de l'atelier
@@ -272,3 +272,6 @@ localhost                  : ok=1    changed=0    unreachable=0    failed=0    s
 ```
 
 > [!NOTE] On voit que les valeurs par défaut sont utilisées si l'utilisateur ne saisit rien. et le mot de passe est masqué lors de la saisie.
+
+
+[⬅️ Atelier-12](/formation-ansible/atelier-12/README.md) | [Atelier-15➡️](/formation-ansible/atelier-15/README.md)

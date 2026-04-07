@@ -1,4 +1,4 @@
-[🏠 Sommaire ](../README.md)
+[🏠 Sommaire ](/README.md)
 # TEST-01
 
 ## Le premier test pour s'assurer que tout fonctionne correctement.

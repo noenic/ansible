@@ -1,4 +1,4 @@
-[🏠 Sommaire ](../README.md)
+[🏠 Sommaire ](/README.md)
 # ATELIER-15 : Variables Enregistrées (Register)
 
 ## Initialisation de l'atelier
@@ -131,3 +131,4 @@ rocky                      : ok=2    changed=0    unreachable=0    failed=0    s
 suse                       : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
 ```
 
+[⬅️ Atelier-14](/formation-ansible/atelier-14/README.md) | [Atelier-16➡️](/formation-ansible/atelier-16/README.md)

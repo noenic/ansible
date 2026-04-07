@@ -1,4 +1,4 @@
-[🏠 Sommaire ](../README.md)
+[🏠 Sommaire ](/README.md)
 # Atelier-18 : Jinja & Templates
 
 En se basant sur l'atelier 17 qui permettait de déployer un service NTP sur 4
@@ -93,3 +93,5 @@ makestep 1.0 3
 rtcsync
 logdir /var/log/chrony
 ```
+
+[⬅️ Atelier-17](/formation-ansible/atelier-17/README.md) | [Sommaire🏠](/README.md)

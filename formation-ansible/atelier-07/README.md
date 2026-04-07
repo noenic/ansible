@@ -1,4 +1,4 @@
-[🏠 Sommaire ](../README.md)
+[🏠 Sommaire ](/README.md)
 # ATELIER-07 : Idempotence
 
 ## Initialisation de l'atelier
@@ -250,3 +250,5 @@ Filesystem      Size  Used Avail Use% Mounted on
 ```
 > [!IMPORTANT]
 > On remarque que le résultat est toujours "CHANGED" même si la commande ne fait rien sur le système, c'est parce que les modules `command` et `shell` ne sont pas idempotents, ils ne peuvent pas vérifier l'état d'une ressource, donc ils affichent toujours "CHANGED" même si la commande ne fait rien, C'est pour cela qu'on préfère toujours utiliser un module spécifique (comme user ou package) plutôt qu'une commande brute quand c'est possible.
+
+[⬅️ Atelier-06](/formation-ansible/atelier-06/README.md) | [Atelier-10➡️](/formation-ansible/atelier-10/README.md)

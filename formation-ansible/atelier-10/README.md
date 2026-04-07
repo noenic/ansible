@@ -1,4 +1,4 @@
-[🏠 Sommaire ](../README.md)
+[🏠 Sommaire ](/README.md)
 # ATELIER-10 : Un serveur web
 
 ## Initialisation de l'atelier
@@ -185,3 +185,5 @@ suse                       : ok=4    changed=3    unreachable=0    failed=0
 [vagrant@ansible playbooks]$ curl suse
 Apache web server running on SUSE Linux
 ```
+
+[⬅️ Atelier-07](/formation-ansible/atelier-07/README.md) | [Atelier-12➡️](/formation-ansible/atelier-12/README.md)

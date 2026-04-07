@@ -1,4 +1,4 @@
-[🏠 Sommaire ](../README.md)
+[🏠 Sommaire ](/README.md)
 # TEST-02
 
 ## Le deuxième test pour s'assurer qu'on peut lancer plusieurs vm de flavors différents.

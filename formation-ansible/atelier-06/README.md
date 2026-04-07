@@ -1,4 +1,4 @@
-[🏠 Sommaire ](../README.md)
+[🏠 Sommaire ](/README.md)
 # ATELIER-06 : Configuration d'Ansible
 
 ## Initialisation de l'atelier
@@ -180,3 +180,5 @@ root:*:19977:0:99999:7:::
 2026-03-24 08:44:10,445 p=3313 u=vagrant n=ansible | target3 | CHANGED | rc=0 >>
 root:*:19977:0:99999:7:::
 ```
+
+[⬅️ Atelier-03](/formation-ansible/atelier-03/README.md) | [Atelier-07➡️](/formation-ansible/atelier-07/README.md)

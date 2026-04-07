@@ -1,4 +1,4 @@
-[🏠 Sommaire ](../README.md)
+[🏠 Sommaire ](/README.md)
 # ATELIER-01 : Installer Ansible
 
 ## 1. Challenge 1
@@ -118,3 +118,4 @@ ansible --version
 ```
 
 
+[⬅️ Sommaire](/README.md) | [Atelier-03➡️](/formation-ansible/atelier-03/README.md)

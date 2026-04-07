@@ -1,4 +1,4 @@
-[🏠 Sommaire ](../README.md)
+[🏠 Sommaire ](/README.md)
 # ATELIER-17 : Gestion des cibles hétérogènes (NTP/Chrony)
 
 ## Approche "Gros Sabots" (chrony-01.yml)
@@ -286,3 +286,5 @@ changed: [rocky]
 changed: [suse]
 ...
 ```
+
+[⬅️ Atelier-16](/formation-ansible/atelier-16/README.md) | [Atelier-18➡️](/formation-ansible/atelier-18/README.md)

@@ -1,4 +1,4 @@
-[🏠 Sommaire ](../README.md)
+[🏠 Sommaire ](/README.md)
 # ATELIER-12 : Handlers
 
 ## Initialisation de l'atelier
@@ -195,4 +195,4 @@ target03                   : ok=5    changed=2    unreachable=0    failed=0    s
 Le service est redémarré car le fichier de configuration a été modifié, et le module `copy` a détecté ce changement et a déclenché le handler pour redémarrer le service.
 
 
-
+[⬅️ Atelier-10](/formation-ansible/atelier-10/README.md) | [Atelier-14➡️](/formation-ansible/atelier-14/README.md)

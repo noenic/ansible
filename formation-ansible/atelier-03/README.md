@@ -1,4 +1,4 @@
-[🏠 Sommaire ](../README.md)
+[🏠 Sommaire ](/README.md)
 # ATELIER-03 : Authentification
 
 ### 1. Lancez les machines
@@ -47,3 +47,6 @@ ssh-copy-id -i ~/.ssh/id_rsa.pub vagrant@target03
 ```bash
 ansible all -i target01,target02,target03 -m ping
 ```
+
+
+[⬅️ Atelier-01](/formation-ansible/atelier-01/README.md) | [Atelier-06➡️](/formation-ansible/atelier-06/README.md)
