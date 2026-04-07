@@ -69,7 +69,7 @@ template
 -          logdir /var/log/chrony
 -      notify: Restart Chrony
 +      template:
-+        dest: "{{ chrony_package }}"
++        dest: "{{ chrony_file }}"
 +        mode: 0644
 +        src: chrony.conf.j2
 ```
