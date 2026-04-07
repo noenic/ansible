@@ -76,8 +76,6 @@ ansible --version
 
 Lancez une VM Rocky Linux et installez Ansible en utilisant PIP et Virtualenv.
 
-Rocky Linux et Virtualenv
-
 > [!NOTE]
 > Notons  que contrairement à Debian, le paquet python3-venv n'est pas nécessaire ici, étant donné que Virtualenv fait partie des modules standard de Python dans cette distribution.
 
