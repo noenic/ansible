@@ -1,4 +1,5 @@
-# Atelier-18 Utilisation de templates Jinja 2
+[🏠 Sommaire ](../README.md)
+# Atelier-18 : Jinja & Templates
 
 En se basant sur l'atelier 17 qui permettait de déployer un service NTP sur 4
 machines : debian, suse, rocky et ubuntu
@@ -50,7 +51,7 @@ logdir /var/log/chrony
 
 
 
-Et éditerons le fichier chrony afin de lui faire viser utiliser le  fichier
+Et éditerons le fichier chrony afin de lui faire utiliser le  fichier
 template
 
 ```diff

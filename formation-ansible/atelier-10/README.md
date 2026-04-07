@@ -1,4 +1,5 @@
-# ATELIER-10
+[🏠 Sommaire ](../README.md)
+# ATELIER-10 : Un serveur web
 
 ## Initialisation de l'atelier
 
@@ -26,7 +27,8 @@ debian | SUCCESS => {
 
 On crée notre premier playbook `apache-debian.yml` pour installer le serveur web Apache avec une page d'accueil personnalisée.
 
-Vu que c'est pas les mêmes nom de package et de service entre les distributions, on va pas utiliser le module `package` mais les modules spécifiques à chaque distribution.
+> [!WARNING]
+> Vu que c'est pas les mêmes nom de package et de service entre les distributions, on va pas utiliser le module `package` mais les modules spécifiques à chaque distribution.
 
 ```yaml
 ---
@@ -54,7 +56,8 @@ Vu que c'est pas les mêmes nom de package et de service entre les distributions
         content: "Apache web server running on Debian Linux\n"
 ...
 ```
-Mention honorable pour les `"---"` et `"..."` qui sont pas necessaires en temps normal mais qui après 8965 heures à debuguer des dry-run kubernetes c'est devenu une habitude d'entreprise.
+> [!TIP]
+> Mention honorable pour les `"---"` et `"..."` qui sont pas necessaires en temps normal mais qui après 8965 heures à debuguer des dry-run kubernetes c'est devenu une habitude d'entreprise.
 
 ```console
 [vagrant@ansible playbooks]$ ansible-playbook apache-debian.yml

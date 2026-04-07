@@ -1,3 +1,4 @@
+[🏠 Sommaire ](../README.md)
 # ATELIER-15 : Variables Enregistrées (Register)
 
 ## Initialisation de l'atelier
@@ -22,7 +23,8 @@ debian | SUCCESS => {
 ## Playbook pour les informations noyau
 L'objectif est de récupérer les informations du noyau de chaque hôte et de les afficher à l'aide du module `debug`.
 
-Pour simplifier la lecture, on a mis directement les deux manières d'afficher les résultats, avec `msg` et avec `var`. La première affiche une simple chaîne de caractères tandis que la seconde affiche une structure plus détaillée.
+> [!NOTE]
+> Pour simplifier la lecture, on a mis directement les deux manières d'afficher les résultats, avec `msg` et avec `var`. La première affiche une simple chaîne de caractères tandis que la seconde affiche une structure plus détaillée.
 
 ```yaml
 ---

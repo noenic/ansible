@@ -1,4 +1,5 @@
-# ATELIER-01
+[🏠 Sommaire ](../README.md)
+# ATELIER-01 : Installer Ansible
 
 ## 1. Challenge 1
 
@@ -68,7 +69,8 @@ sudo apt update && sudo apt install ansible
 ansible --version
 ```
 
-> On voit bien que la version d'Ansible est plus récente que celle fournie par la distribution, `2.10.8` et `2.17.14` respectivement.
+> [!NOTE]
+> La version d'Ansible est plus récente que celle fournie par la distribution : `2.10.8` et `2.17.14` respectivement.
 
 ## 3. Challenge 3
 
@@ -76,7 +78,8 @@ Lancez une VM Rocky Linux et installez Ansible en utilisant PIP et Virtualenv.
 
 Rocky Linux et Virtualenv
 
-Notez bien que contrairement à Debian, le paquet python3-venv n'est pas nécessaire ici, étant donné que Virtualenv fait partie des modules standard de Python dans cette distribution.
+> [!NOTE]
+> Notons  que contrairement à Debian, le paquet python3-venv n'est pas nécessaire ici, étant donné que Virtualenv fait partie des modules standard de Python dans cette distribution.
 
 ### 3.1 Démarrez la VM Rocky Linux.
 ![image](./assets/capture11.png)

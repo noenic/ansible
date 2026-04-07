@@ -1,4 +1,5 @@
-# ATELIER-06
+[🏠 Sommaire ](../README.md)
+# ATELIER-06 : Configuration d'Ansible
 
 ## Initialisation de l'atelier
 Après un `vagrant up`, on se connecte à la machine `control`

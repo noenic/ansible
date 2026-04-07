@@ -1,4 +1,5 @@
-# ATELIER-12
+[🏠 Sommaire ](../README.md)
+# ATELIER-12 : Handlers
 
 ## Initialisation de l'atelier
 
@@ -106,8 +107,9 @@ target01                   : ok=5    changed=4    unreachable=0    failed=0    s
 target02                   : ok=5    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
 target03                   : ok=5    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
 ```
+On voit que les tâches sont exécutées et que le handler est déclenché pour redémarrer le service, car le fichier de configuration a été modifié.
 
-En relançant le playbook, on voit que les tâches sont idempotentes et que le handler n'est pas déclenché car le fichier de configuration n'est pas modifié.
+
 
 ```console
 [vagrant@control ema]$ ansible-playbook playbooks/chrony.yaml 
@@ -139,6 +141,8 @@ target01                   : ok=4    changed=0    unreachable=0    failed=0    s
 target02                   : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
 target03                   : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
 ```
+> [!NOTE]
+> En relançant le playbook, on voit que les tâches sont idempotentes et que le handler n'est pas déclenché car le fichier de configuration n'est pas modifié.
 
 Mais si on modifie le contenu du fichier de configuration, on voit que le handler est déclenché et que le service est redémarré.
 

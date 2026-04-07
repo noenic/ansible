@@ -1,4 +1,5 @@
-# ATELIER-14 : Maîtrise des Variables Ansible
+[🏠 Sommaire ](../README.md)
+# ATELIER-14 : Les Variables Ansible
 
 ## Initialisation de l'atelier
 Démarrage de l'environnement et connexion au `control` Host et on vérifie que tout fonctionne avec un ping sur tous les hôtes :
@@ -48,8 +49,8 @@ ok: [localhost] => {
 PLAY RECAP *********************************************************************************
 localhost                  : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
 ```
-
-On peut aussi surcharger les variables :
+> [!TIP]
+> On peut aussi surcharger les variables définies dans le playbook en utilisant l'option `-e` ou `--extra-vars` lors de l'exécution du playbook.
 
 ```console
 [vagrant@control ema]$ ansible-playbook playbooks/myvars1.yaml -e mycar=Tesla
@@ -112,7 +113,8 @@ PLAY RECAP *********************************************************************
 localhost                  : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
 ```
 
-On peut aussi surcharger les variables définies dynamiquement :
+> [!NOTE]
+> On peut aussi surcharger les variables définies dynamiquement :
 
 ```console
 [vagrant@control ema]$ ansible-playbook playbooks/myvars2.yaml -e mycar=Ferrari -e mybike=Ducati
@@ -143,7 +145,8 @@ localhost                  : ok=2    changed=0    unreachable=0    failed=0    s
         msg: "Ma voiture : {{ mycar }}, Ma moto : {{ mybike }}"
 ...
 ```
-Si on l'exécute tel quel, on a une erreur car les variables ne sont pas définies mais on va les définir dans des variables de groupe.
+> [!WARNING]
+> Si on l'exécute tel quel, on a une erreur car les variables ne sont pas définies mais on va les définir dans des variables de groupe.
 
 ```console
 [vagrant@control ema]$ mkdir -p group_vars
@@ -211,7 +214,8 @@ target02                   : ok=1    changed=0    unreachable=0    failed=0    s
 target03                   : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
 ```
 
-On voit que les variables définies pour `target02` ont été utilisées à la place de celles définies par défaut pour tous les hôtes.
+> [!NOTE]
+> On voit que les variables définies pour `target02` ont été utilisées à la place de celles définies par défaut pour tous les hôtes.
 
 
 ## Saisie interactive de variables
@@ -267,4 +271,4 @@ PLAY RECAP *********************************************************************
 localhost                  : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
 ```
 
-On voit que les valeurs par défaut sont utilisées si l'utilisateur ne saisit rien. et le mot de passe est masqué lors de la saisie.
+> [!NOTE] On voit que les valeurs par défaut sont utilisées si l'utilisateur ne saisit rien. et le mot de passe est masqué lors de la saisie.

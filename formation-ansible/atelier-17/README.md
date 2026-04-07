@@ -1,3 +1,4 @@
+[🏠 Sommaire ](../README.md)
 # ATELIER-17 : Gestion des cibles hétérogènes (NTP/Chrony)
 
 ## Approche "Gros Sabots" (chrony-01.yml)

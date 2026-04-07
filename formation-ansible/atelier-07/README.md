@@ -1,4 +1,5 @@
-# ATELIER-07
+[🏠 Sommaire ](../README.md)
+# ATELIER-07 : Idempotence
 
 ## Initialisation de l'atelier
 Après un `vagrant up`, on se connecte à la machine `ansible`
@@ -74,7 +75,8 @@ rocky | SUCCESS => {
     "results": []
 }
 ```
-On voit que les logs sont différents selon les distributions, mais en relançant la même commande, on voit que les modules sont idempotents, c'est à dire qu'ils ne font rien si l'état désiré est déjà atteint.
+> [!NOTE]
+> On voit que les logs sont différents selon les distributions, mais en relançant la même commande, on voit que les modules sont idempotents, ils ne font rien si l'état désiré est déjà atteint.
 
 ## Désinstallation des packages
 ```console
@@ -246,5 +248,5 @@ rocky | CHANGED | rc=0 >>
 Filesystem      Size  Used Avail Use% Mounted on
 /dev/sda2        61G  2.1G   59G   4% /
 ```
-
-On remarque que le résultat est toujours "CHANGED" même si la commande ne fait rien sur le système, c'est parce que les modules `command` et `shell` ne sont pas idempotents, ils ne peuvent pas vérifier l'état d'une ressource, donc ils affichent toujours "CHANGED" même si la commande ne fait rien, C'est pour cela qu'on préfère toujours utiliser un module spécifique (comme user ou package) plutôt qu'une commande brute quand c'est possible.
+> [!IMPORTANT]
+> On remarque que le résultat est toujours "CHANGED" même si la commande ne fait rien sur le système, c'est parce que les modules `command` et `shell` ne sont pas idempotents, ils ne peuvent pas vérifier l'état d'une ressource, donc ils affichent toujours "CHANGED" même si la commande ne fait rien, C'est pour cela qu'on préfère toujours utiliser un module spécifique (comme user ou package) plutôt qu'une commande brute quand c'est possible.

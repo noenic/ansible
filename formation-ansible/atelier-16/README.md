@@ -1,6 +1,9 @@
+[🏠 Sommaire ](../README.md)
 # ATELIER-16 : Facts et Variables Implicites
 
-Le jeu sur cet atelier est juste de se balader dans les facts qu'on peut récupérer sur les hôtes avec `ansible -m setup (target)`.
+> [!NOTE]
+> Cet atelier est plus une exploration des facts et des variables implicites d'Ansible qu'un véritable challenge. Le but est de se familiariser avec les informations que Ansible peut récupérer sur les hôtes cibles et de comprendre comment les utiliser dans nos playbooks.
+
 
 ## Gestionnaire de paquets (pkg-info.yml)
 L'objectif est d'identifier l'outil de gestion des paquets via les facts.
